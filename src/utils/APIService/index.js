@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: `${process.env.REACT_APP_BASE_URL}`,
+  baseURL: "https://jobs-api.squareboat.info/api/v1/",
 });
 
 axiosInstance.interceptors.request.use(
